@@ -91,7 +91,7 @@ defaults:
     comments: false
     share: false
     related: false
-remote_theme: bandonga/minimal-mistakes
+remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: bandonga
 locale: en-GB
 title_separator: "-"
@@ -101,7 +101,7 @@ description: A place to share information with you. Improve the skills needed fo
   life for you and those around.
 url: https://bandonga.com
 baseurl: "/"
-repository: mmistakes/bandonga.github.io
+repository: bandonga/mmtest
 teaser:
 breadcrumbs: false
 words_per_minute: 200
