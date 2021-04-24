@@ -3,7 +3,7 @@ title: bandonga
 timezone: Europe/Lisbon
 
 remote_theme             : "mmistakes/minimal-mistakes@4.22.0"
-minimal_mistakes_skin.   : bandonga # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin.   : "dark"  # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", bandonga
 
 locale: en-GB
 title_separator: "-"
@@ -14,9 +14,12 @@ description: A place to share information with you. Improve the skills needed fo
 url: https://bandonga.com
 baseurl: "/"
 repository: bandonga/mmtest
-teaser:
 breadcrumbs: false
 words_per_minute: 200
+
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : /assets/images/logo.png # overrides the website title displayed in the masthead, use " " for no title
 
 
 search                   : true # true, false (default)
@@ -29,6 +32,7 @@ algolia:
   powered_by             : true # true (default), false
   files_to_exclude:
     - _posts/2017-11-28-post-exclude-search.md
+
 
 collections:
   1Z0-133:
@@ -148,14 +152,14 @@ staticman:
       type:
       options:
         format:
+        
 reCaptcha:
   siteKey:
   secret:
+  
 atom_feed:
   path:
-search: true
-search_full_content: true
-logo: true
+
 
 google_site_verification: pysi0k7e__TUjnmqE97ai15ohD4K1gtxJf9_cb8jeiA
 bing_site_verification: BF40F0E362798251D61F54B417D72DFE
