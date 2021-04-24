@@ -101,7 +101,7 @@ description: A place to share information with you. Improve the skills needed fo
   life for you and those around.
 url: https://bandonga.com
 baseurl: "/"
-repository: bandonga/bandonga.github.io
+repository: mmistakes/bandonga.github.io
 teaser:
 breadcrumbs: false
 words_per_minute: 200
