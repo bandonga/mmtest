@@ -2,6 +2,7 @@
 permalink: "/"
 layout: splash
 header:
+  overlay_color: "#252a34"
   caption:
 feature_row:
 - image_path: "/assets/images/know.jpg"
