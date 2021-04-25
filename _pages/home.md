@@ -3,7 +3,7 @@ permalink: "/"
 layout: splash
 header:
   overlay_color: "#5e616c"
-  overlay_image: "/assets/images/home2.jpg"
+  overlay_image: "/assets/images/home.png"
   caption:
 feature_row:
 - image_path: "/assets/images/know.jpg"
