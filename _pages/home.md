@@ -2,7 +2,6 @@
 permalink: "/"
 layout: splash
 header:
-  overlay_image: "/assets/images/home.png"
   caption:
 feature_row:
 - image_path: "/assets/images/know.jpg"
