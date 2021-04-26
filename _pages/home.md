@@ -2,8 +2,8 @@
 permalink: "/"
 layout: splash
 header:
-  overlay_color: "#252a34"
-  caption:
+  overlay_color: "#00adb5"
+  caption: Yet Another Blog
 feature_row:
 - image_path: "/assets/images/know.jpg"
   alt: know
