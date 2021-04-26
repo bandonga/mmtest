@@ -1,9 +1,14 @@
 ---
 permalink: "/"
 layout: splash
+hidden: true
 header:
   overlay_color: "#00adb5"
-  caption: Yet Another Blog
+  overlay_image: "/assets/images/home.jpg"
+  overlay_filter: rgba(0, 173, 181, 0.5)
+  caption: 
+excerpt: >
+  Yet Another Blog<br />
 feature_row:
 - image_path: "/assets/images/know.jpg"
   alt: know
