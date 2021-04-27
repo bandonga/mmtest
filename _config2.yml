@@ -1,0 +1,267 @@
+---
+title: bandonga
+timezone: Europe/Lisbon
+collections:
+  1Z0-133:
+    title: 1Z0-133
+    output: true
+    permalink: "/:collection/:path/"
+  RHCSA:
+    title: RHCSA
+    output: true
+    permalink: "/:collection/:path/"
+  CCNA:
+    title: CCNA
+    output: true
+    permalink: "/:collection/:path/"
+  u:
+    title: users
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: single
+    author_profile: false
+    read_time: true
+    comments: true
+    share: true
+    related: true
+- scope:
+    path: _pages
+    type: pages
+  values:
+    layout: single
+    author_profile: false
+- scope:
+    path: ''
+    type: 1Z0-133
+  values:
+    layout: single
+    author_profile: false
+    read_time: true
+    comments: true
+    share: true
+    related: true
+    header:
+      teaser: "/assets/images/1Z0-133/1Z0-133_oracle_certification.png"
+    sidebar:
+      nav: 1Z0-133
+- scope:
+    path: ''
+    type: RHCSA
+  values:
+    layout: single
+    author_profile: false
+    read_time: true
+    comments: true
+    share: true
+    related: true
+    header:
+      teaser: "/assets/images/RHCSA/rhcsa.png"
+    sidebar:
+      nav: RHCSA
+- scope:
+    path: ''
+    type: CCNA
+  values:
+    layout: single
+    author_profile: false
+    read_time: true
+    comments: true
+    share: true
+    related: true
+    header:
+      teaser: "/assets/images/CCNA/ccna.png"
+    sidebar:
+      nav: CCNA
+- scope:
+    path: ''
+    type: u
+  values:
+    layout: archive
+    read_time: false
+    comments: false
+    share: false
+    related: false
+remote_theme: bandonga/minimal-mistakes
+minimal_mistakes_skin: bandonga
+locale: en-GB
+title_separator: "-"
+name: bandonga
+description: A place to share information with you. Improve the skills needed for
+  making the next step up in your career get and articles with Life tips to improves
+  life for you and those around.
+url: https://bandonga.com
+baseurl: "/"
+repository: bandonga/bandonga.github.io
+teaser:
+breadcrumbs: false
+words_per_minute: 200
+comments:
+  provider: disqus
+  disqus:
+    shortname: bandonga
+  discourse:
+    server:
+  facebook:
+    appid:
+    num_posts:
+    colorscheme:
+staticman:
+  allowedFields:
+  branch:
+  commitMessage:
+  filename:
+  format:
+  moderation:
+  path:
+  requiredFields:
+  transforms:
+    email:
+  generatedFields:
+    date:
+      type:
+      options:
+        format:
+reCaptcha:
+  siteKey:
+  secret:
+atom_feed:
+  path:
+search: true
+search_full_content: true
+logo: true
+google_site_verification: pysi0k7e__TUjnmqE97ai15ohD4K1gtxJf9_cb8jeiA
+bing_site_verification: BF40F0E362798251D61F54B417D72DFE
+yandex_site_verification:
+naver_site_verification:
+twitter:
+  username: bandongatech
+facebook:
+  username: bandongatech
+  app_id:
+  publisher:
+og_image: "/assets/images/name_og.png"
+social:
+  type:
+  name:
+  links:
+analytics:
+  provider: google-universal
+  google:
+    tracking_id: UA-142611227-1
+author:
+  name: bandonga
+  avatar:
+  bio: this is our io
+  location: Somewhere
+  email: me@mail.com
+  uri: http://bandonga.com
+  home:
+  bitbucket:
+  codepen:
+  dribbble:
+  flickr:
+  facebook: bandongatech
+  foursquare:
+  github: bandonga
+  gitlab:
+  google_plus:
+  keybase:
+  instagram: bandongatech
+  lastfm:
+  linkedin:
+  pinterest:
+  soundcloud:
+  stackoverflow:
+  steam:
+  tumblr:
+  twitter: bandongatech
+  vine:
+  weibo:
+  xing:
+  youtube:
+include:
+- ".htaccess"
+- _pages
+exclude:
+- "*.sublime-project"
+- "*.sublime-workspace"
+- vendor
+- ".asset-cache"
+- ".bundle"
+- ".jekyll-assets-cache"
+- ".sass-cache"
+- assets/js/plugins
+- assets/js/_main.js
+- assets/js/vendor
+- Capfile
+- CHANGELOG
+- config
+- Gemfile
+- Gruntfile.js
+- gulpfile.js
+- LICENSE
+- log
+- node_modules
+- package.json
+- Rakefile
+- README
+- tmp
+- "/docs"
+- "/test"
+keep_files:
+- ".git"
+- ".svn"
+encoding: utf-8
+markdown_ext: markdown,mkdown,mkdn,mkd,md
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: "/page:num/"
+plugins:
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-gist
+- jekyll-feed
+- jemoji
+whitelist:
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-gist
+- jekyll-feed
+- jemoji
+category_archive:
+  type: liquid
+  path: "/categories/"
+tag_archive:
+  type: liquid
+  path: "/tags/"
+compress_html:
+  clippings:
+  ignore:
+    envs: development
